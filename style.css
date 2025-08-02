@@ -237,6 +237,113 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+.quote-section {
+  background: #0a0a0a;
+  color: #e5e5e5;
+  padding: 2rem;
+  border-left: 4px solid hsl(313, 80%, 45%);
+  font-family: 'Georgia', serif;
+  max-width: 700px;
+  margin: 4rem auto;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+.quote-section h2 {
+  color: #b30e0e;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.quote-section p {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.5s forwards;
+}
+
+.delay-1 { animation-delay: 1s; }
+.delay-2 { animation-delay: 2s; }
+.delay-3 { animation-delay: 3s; }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.faith-section {
+  background: #111;
+  color: #e0e0e0;
+  padding: 2.5rem;
+  max-width: 800px;
+  margin: 4rem auto;
+  text-align: center;
+  border-radius: 12px;
+  border-top: 4px solid #4caf50;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.03);
+  font-family: 'Georgia', serif;
+}
+
+.faith-section h2 {
+  font-size: 2rem;
+  color: hsl(258, 88%, 27%);
+  margin-bottom: 1.2rem;
+  letter-spacing: 1.5px;
+}
+
+.faith-section h3 {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: #aad576;
+}
+
+.faith-section p {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.faith-section blockquote {
+  font-style: italic;
+  color: #c3f1c3;
+  margin: 1.2rem 0;
+  font-size: 1.1rem;
+}
+
+.bold-note {
+  font-weight: bold;
+  color: #ffd700;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+
+.faith-section ul.proverbs {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 1.5rem;
+}
+
+.faith-section ul.proverbs li {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #dddddd;
+}
 
 /* === FOOTER === */
 footer {
