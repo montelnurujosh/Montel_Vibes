@@ -50,6 +50,7 @@ body {
   color: #ccc;
   margin: 30px 0 10px;
   font-size: 0.95rem;
+  text-align: center;
 }
 
 .socials {
@@ -343,6 +344,41 @@ body {
   font-size: 1rem;
   line-height: 1.6;
   color: #dddddd;
+}
+header.header {
+  padding: 3rem 1rem;
+  background-color: rgba(61, 61, 61, 0.596);
+  color: #f4f4f4;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+header.header .container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header .avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #444;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+}
+
+header .name {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+header .tagline {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #ccc;
 }
 
 /* === FOOTER === */
