@@ -399,3 +399,50 @@ footer p {
   margin: 10px 0;
   line-height: 1.6;
 }
+  .play-btn {
+    display: block;
+    margin: 40px auto;
+    background-color: #a7df0e;
+    color: #240c91;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .play-btn:hover {
+    background-color: #a10c0c;
+  }
+@keyframes slideInTop {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInBottom {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.top-btn-container {
+  animation: slideInTop 1s ease forwards;
+}
+
+.bottom-btn-container {
+  animation: slideInBottom 1s ease forwards;
+}
+
+
+
