@@ -443,6 +443,39 @@ footer p {
 .bottom-btn-container {
   animation: slideInBottom 1s ease forwards;
 }
+.quote-poster-section {
+  background-color: #0a0a0a;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.poster-container {
+  max-width: 400px;
+  text-align: center;
+}
+
+.poster-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.poster-container img:hover {
+  transform: scale(1.02);
+}
+
+.quote-caption {
+  margin-top: 0.8rem;
+  font-size: 1.1rem;
+  color: #ccc;
+  font-style: italic;
+  font-family: 'Georgia', serif;
+}
 
 
 
